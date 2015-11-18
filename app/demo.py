@@ -45,7 +45,6 @@ def hello_world():
     for link in a['data']['children']:
         eachUrl = link['data']['url']
         if not ".gifv" in eachUrl:
-            #linksList.append(eachUrl)
             embedJPG = "<img src=" + '"' + eachUrl + '"' + ' alt="HTML5 Icon" ' +' style="width: 50%; height: 50%"/>'
             jpgList+=embedJPG
         else:
