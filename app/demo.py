@@ -21,7 +21,7 @@ def get_cars():
     #return aww
 
 
-#basic hello world route
+#route for cars
 @app.route('/cars/')
 def hello_world():
     a = get_cars()
